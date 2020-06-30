@@ -45,3 +45,9 @@
   height: 85px;
   margin: 5px;
 }
+
+@media only screen and (max-width: 450px) {
+  .logo {
+    height: 55px;
+  }
+}
