@@ -6,7 +6,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 
 function NavBar() {
   return (
-    <AppBar color="secondary" position="static" className="navbar">
+    <AppBar color="secondary" className="navbar">
       <Toolbar>
         <Button>Garrett Van Neste</Button>
         <div style={{ flexGrow: 1 }}></div>

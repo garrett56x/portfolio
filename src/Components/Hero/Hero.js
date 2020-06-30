@@ -1,6 +1,7 @@
 import React from 'react';
 import './Hero.css';
-import headshot from "../../assets/headshot.png";
+import headshot from '../../assets/headshot.png';
+import { Typography } from '@material-ui/core';
 
 function Hero() {
   return (
@@ -8,7 +9,7 @@ function Hero() {
         <div className="container">
             <img className="headshot" alt="headshot" src={headshot} />
             <div className="title">
-                <h1>Garrett Van Neste - Web Developer</h1>
+                <Typography variant="h4">Garrett Van Neste - Web Developer</Typography>
             </div>
         </div>
     </div>
