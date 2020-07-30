@@ -13,7 +13,7 @@ function About() {
         for working on the front end.
     </Typography>
     <Typography variant="body2" gutterBottom>
-        While I'm a capable full stack engineer, I persued my love for front end engineering and ended up taking a contract
+        While I'm a capable full stack engineer, I pursued my love for front end engineering and ended up taking a contract
         at Microsoft in 2019. Going from a small startup to Microsoft was a bit of a shock at first, but it was great to
         experience the contrast. I learned new things like unit testing, which I hadn't had experience with at Utrip.
     </Typography>
