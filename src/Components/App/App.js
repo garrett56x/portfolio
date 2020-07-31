@@ -4,6 +4,7 @@ import About from '../About/About';
 import Contact from '../Contact/Contact';
 import Hero from '../Hero/Hero';
 import Logos from '../Logos/Logos';
+import Projects from '../Projects/Projects';
 import NavBar from '../NavBar/NavBar';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Hero />
       <Logos />
       <About />
+      <Projects />
       <Contact />
     </div>
   );
