@@ -15,7 +15,7 @@ function About() {
     <Typography variant="body2" gutterBottom>
         While I'm a capable full stack engineer, I pursued my love for front end engineering and ended up taking a contract
         at Microsoft in 2019. Going from a small startup to Microsoft was a bit of a shock at first, but it was great to
-        experience the contrast. I learned new things like unit testing, which I hadn't had experience with at Utrip.
+        experience the contrast. I learned what it was like to be part of a large organization, and the bast practices that were implemented vs a startup. 
     </Typography>
     </div>
   );
