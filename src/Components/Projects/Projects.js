@@ -32,7 +32,7 @@ function Projects() {
                     <img className="stat" src="https://github-readme-stats.vercel.app/api?username=garrett56x&show_icons=true&count_private=true&hide=issues,contribs&theme=dark" alt="github-stats" />
                     <img className="stat" src="https://github-readme-stats.vercel.app/api/wakatime?username=garrett56x&theme=dark" alt="wakatime-stats" />
                 </div>
-                <img className="stat" src="https://github-readme-stats.vercel.app/api/top-langs/?username=garrett56x&theme=dark" alt="language-stats" />
+                <img className="stat" src="https://github-readme-stats.vercel.app/api/top-langs/?username=garrett56x&theme=dark&hide=ruby,php,coffeescript" alt="language-stats" />
             </div>
         </div>
     </div>
