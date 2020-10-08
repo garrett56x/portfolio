@@ -52,7 +52,7 @@ class Contact extends React.Component {
     const { name, email, message } = this.state;
     return (
       <div className="contact">
-        <Typography variant="h4" gutterBottom>Contact</Typography>
+        <Typography id="contact" variant="h4" gutterBottom>Contact</Typography>
         <form className="contact-form" id="contact-form" onSubmit={this.handleSubmit}>
           <div className="name-email-wrapper">
             <FormControl margin="normal" className="name-email">
