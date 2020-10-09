@@ -54,10 +54,11 @@ class Contact extends React.Component {
 
   render () {
     const { name, email, message, sending, success, error } = this.state;
+    const { contactRef } = this.props;
 
     return (
       <div className="contact">
-        <Typography id="contact" variant="h4" gutterBottom>Contact</Typography>
+        <Typography id="contact" variant="h4" gutterBottom ref={contactRef}>Contact</Typography>
         <form className="contact-form" id="contact-form" onSubmit={this.handleSubmit}>
           <div className="name-email-wrapper">
             <FormControl margin="normal" className="name-email">
