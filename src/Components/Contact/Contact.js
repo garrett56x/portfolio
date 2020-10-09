@@ -59,6 +59,12 @@ class Contact extends React.Component {
     return (
       <div className="contact">
         <Typography id="contact" variant="h4" gutterBottom ref={contactRef}>Contact</Typography>
+        {success.length ? (
+          <Alert variant="filled" severity="success" className="alert-message">{success}</Alert>
+        ): ""}
+        {error.length ? (
+          <Alert variant="filled" severity="error" className="alert-message">{error}</Alert>
+        ): ""}
         <form className="contact-form" id="contact-form" onSubmit={this.handleSubmit}>
           <div className="name-email-wrapper">
             <FormControl margin="normal" className="name-email">
@@ -75,12 +81,6 @@ class Contact extends React.Component {
           </FormControl>
           <Button className="submit-button" variant="contained" color="primary" type="submit" aria-label="submit" disabled={sending}>Submit</Button>
         </form>
-        {success.length ? (
-          <Alert variant="filled" severity="success" className="alert-message">{success}</Alert>
-        ): ""}
-        {error.length ? (
-          <Alert variant="filled" severity="error" className="alert-message">{error}</Alert>
-        ): ""}
       </div>
     );
   }
