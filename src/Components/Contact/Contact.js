@@ -79,7 +79,7 @@ class Contact extends React.Component {
           <FormControl fullWidth margin="normal">
             <TextField id="message" aria-label="message" value={message} onChange={(e) => this.handleChange("message", e)} variant="outlined" label="Message" multiline rows={4} required />
           </FormControl>
-          <Button className="submit-button" variant="contained" color="primary" type="submit" aria-label="submit" disabled={sending}>Submit</Button>
+          <Button className="submit-button" variant="contained" color="primary" type="submit" aria-label="submit" disabled={sending}>{sending ? "Sending..." : "Submit"}</Button>
         </form>
       </div>
     );
