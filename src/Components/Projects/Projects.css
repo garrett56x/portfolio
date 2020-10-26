@@ -3,59 +3,22 @@
     padding: 0 20px;
     margin: 0 auto;
 }
-    .projects-container {
+    .stats {
+        display: flex;
+        justify-content: space-around;
     }
-        .project {
-            height: 150px;
-            margin: 20px 0;
-            display: flex;
+        .stats-left {
+            flex-direction: column;
         }
-        .project:hover {
-            box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.6), 0px 1px 1px 0px rgba(0,0,0,0.17), 0px 1px 3px 0px rgba(0,0,0,0.17)
+        .stat {
+            max-width: 100%;
         }
-        .project-link {
-            text-decoration: none;
-        }
-        .project-image {
-            height: 100%;
-            width: 300px;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        .project-description {
-            flex-shrink: 20;
-            padding: 10px;
-            padding-top: 0;
-        }
-
-        .stats {
-            display: flex;
-            justify-content: space-around;
-        }
-            .stats-left {
-                flex-direction: column;
-            }
-            .stat {
-                max-width: 100%;
-            }
 
 @media only screen and (max-width: 860px) {
     .stats {
         flex-direction: column;
         text-align: center;
     }
-}
-
-@media only screen and (max-width: 600px) {
-    .project {
-        height: 300px;
-        flex-direction: column;
-    }
-        .project-image {
-            width: 100%;
-            max-height: 200px;
-        }
 }
 
 @media only screen and (max-width: 500px) {
