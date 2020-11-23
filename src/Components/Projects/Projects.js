@@ -2,8 +2,9 @@ import React from 'react';
 import './Projects.css';
 import { makeStyles } from '@material-ui/core/styles';
 import { Card, CardActionArea, CardActions, CardContent, CardMedia, Button, Typography } from '@material-ui/core';
-import paintconnection from '../../assets/paintconnection.png';
-import weddingsite from '../../assets/weddingsite.png';
+// import paintconnection from '../../assets/paintconnection.png';
+// import weddingsite from '../../assets/weddingsite.png';
+import utrip from '../../assets/utrip.png';
 
 const useStyles = makeStyles({
     projectsContainer: {
@@ -28,7 +29,32 @@ function Projects() {
     <div className="projects">
         <Typography variant="h4" gutterBottom>Projects</Typography>
         <div className={classes.projectsContainer}>
-            <Card className={classes.project}>
+        <Card className={classes.project}>
+                <CardActionArea href="https://utrip-clone.netlify.app/" target="_blank">
+                    <CardMedia
+                    className={classes.media}
+                    image={utrip}
+                    title="Utrip Clone"
+                    />
+                    <CardContent>
+                    <Typography gutterBottom variant="h5" component="h2">
+                        Utrip Clone
+                    </Typography>
+                    <Typography variant="body2" color="textSecondary" component="p">
+                        A clone of the old Utrip travel planning website rebuilt from scratch in React. Based off old screen shots and my memory.
+                    </Typography>
+                    </CardContent>
+                </CardActionArea>
+                <CardActions>
+                    <Button size="small" color="primary" href="https://github.com/garrett56x/utrip-clone" target="_blank">
+                        Frontend Repo
+                    </Button>
+                    {/* <Button size="small" color="primary" href="https://github.com/garrett56x/painting-leads-api" target="_blank">
+                        Backend Repo
+                    </Button> */}
+                </CardActions>
+            </Card>
+            {/* <Card className={classes.project}>
                 <CardActionArea href="https://www.thepaintconnection.com/" target="_blank">
                     <CardMedia
                     className={classes.media}
@@ -77,7 +103,7 @@ function Projects() {
                         Github Repo
                     </Button>
                 </CardActions>
-            </Card>
+            </Card> */}
             <div className="stats">
                 <div className="stats-left">
                     <img className="stat" src="https://github-readme-stats.vercel.app/api?username=garrett56x&show_icons=true&count_private=true&hide=issues,contribs&theme=dark" alt="github-stats" />
