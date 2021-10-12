@@ -7,15 +7,10 @@ function About() {
     <div className="about">
     <Typography variant="h4" gutterBottom>About Me</Typography>
     <Typography variant="body2" gutterBottom>
-        I started my professional engineering journey in 2015 at a startup called Utrip. There, I was part of a small
-        team where I had the opportunity to work on every part of the tech stack. This was a really great place for me 
-        to learn what I liked to work on by getting exposure to many different technologies. At Utrip I found my passion 
-        for working on the front end.
+      I love building responsive web apps, and I'm the dev that will make your app look great on any screen size! With an increasing trend towards mobile web, I believe it's not only important to start with a mobile-first approach to building an app, but it is also easier in terms of implementation. It's much easier to take a condensed version of an app and spread it out across more real estate, than it is the other way around.
     </Typography>
     <Typography variant="body2" gutterBottom>
-        While I'm a capable full stack engineer, I pursued my love for front end engineering and ended up taking a contract
-        at Microsoft in 2019. Going from a small startup to Microsoft was a bit of a shock at first, but it was great to
-        experience the contrast. I learned what it was like to be part of a large organization, and the bast practices that were implemented vs a startup. 
+      My current area of expertise is front-end development in React &amp; TypeScript. While my focus is on the front end, I don't shy away from back end work; I enjoy working on a Node API from time to time. In my most recent role, I became quite proficient in Shopify/liquid development.
     </Typography>
     </div>
   );
